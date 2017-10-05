@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/soap.iml" filepath="$PROJECT_DIR$/.idea/modules/soap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/soap_main.iml" filepath="$PROJECT_DIR$/.idea/modules/soap_main.iml" group="soap" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/soap_test.iml" filepath="$PROJECT_DIR$/.idea/modules/soap_test.iml" group="soap" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/zeus-soap.iml" filepath="$PROJECT_DIR$/.idea/modules/zeus-soap.iml" />
     </modules>
   </component>
