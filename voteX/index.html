@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html ng-app="surveyHandler">
+<head>
+    <link rel="icon" href="ico/index.ico">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/vote-x.css" rel="stylesheet">
+
+    <title>Vote XXX</title>
+</head>
+
+<body>
+<div class="container" ng-controller="surveyController as questions">
+    <div class="showing-survey-forms">
+        <p>Lorem ipsum dolor sit amet, vix ut iudico definiebas. Cum lorem virtute gubergren at, postulant
+            voluptaria ei usu. Mei homero vivendum reprimique in, pri modo cibo id. Aeque accusamus ius ea.
+
+            Ea mel labitur epicurei, ad nam nostrum suscipit, vel atqui augue aperiri id. Id est rebum ullum
+            iracundia, vim cu saperet convenire, ne cum utroque detraxit partiendo. Ne ullum accumsan vim, mei ad
+            adhuc vivendo. Vide deseruisse dissentias ei pri, est in saepe copiosae expetendis.
+
+            Praesent recteque posidonium et usu. Sea ei animal singulis, stet vidit conceptam est ei, ad novum
+            docendi posidonium eum. Aeque consul doctus quo ad, nihil vivendo eu quo. Qui corpora reformidans ex,
+            eros ubique deleniti nam ad. Est purto facilisi ad. Errem facilisi scribentur pri in, aperiam alterum
+            civibus te pro, docendi similique est et.
+
+            In tale scripserit reprehendunt quo, dolor vivendum inimicus eos ad. Esse errem sea an, ad decore
+            meliore concludaturque mei. Alterum aliquam cu cum. Ut sea vide fabellas.
+
+            Mei labitur vivendo te. Eam debet oblique democritum at, ius ad postea placerat. Nam hinc timeam in, ex
+            mea duis convenire voluptatum. Impedit volutpat elaboraret eu quo, pri ei mediocrem conceptam. Ius ea
+            minim sonet democritum, cu vis dicta copiosae salutatus.
+        </p>
+        <div class="radio">
+            <label><input type="radio" name="optradio">Option 1</label>
+        </div>
+        <div class="radio">
+            <label><input type="radio" name="optradio">Option 2</label>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <hr>
+        <form >
+            <div class="col-md-11" style="padding-right:5px; border-right: 1px solid #ccc;">
+                <div class="survey-form">
+                    <textarea class="input-survey"/></textarea>
+
+                    <ul class="unstyled">
+                        <li ng-repeat="choice in questions.choices">
+                            <label><input type="radio" ng-model="todo.done">{{choice.text}}</label>
+                        </li>
+                    </ul>
+                    <form>
+
+                        <input class="text"/></textarea>
+
+                        <input class="btn btn-xs" type="submit" value="Add Choice">
+
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-1">
+                <input class="btn btn-sm" type="submit" value="Add Question">
+            </div>
+
+
+        </form>
+    </div>
+    <div class="bottom-buttons">
+        <form>
+            <input class="btn btn-primary btn-lg" type="submit" value="Create Survey">
+        </form>
+    </div>
+
+</div>
+
+<script src="node_modules/angular/angular.min.js"></script>
+<script src="js/buttonHandler.js"></script>
+</body>
+</html>
