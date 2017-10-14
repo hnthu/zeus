@@ -10,6 +10,7 @@ YES
 1 0 0 0
 0 0 1 0*/
 public class nQueensProblem {
+
     public static void main(String args[] ) throws Exception {
         /*
          * Read input from stdin and provide input before running
