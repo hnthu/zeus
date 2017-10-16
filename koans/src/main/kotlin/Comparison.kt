@@ -16,7 +16,14 @@ class TestComparison {
     }
 
     data class MyDate(val year: Int, val month: Int, val dayOfMonth: Int) : Comparable<MyDate> {
-
+        override operator fun compareTo(b: MyDate) : Int {
+            if(this.year!=b.year)
+                return this.year-b.year
+            else if(this.month!=b.month){
+                return this.month-b.month
+            }
+            return this.dayOfMonth-b.dayOfMonth
+        }
     }
 
     fun compare(date1: MyDate, date2: MyDate) = date1 < date2
