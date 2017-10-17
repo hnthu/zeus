@@ -19,13 +19,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Comparison.kt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/Comparison.kt">
+      <file leaf-file-name="InRange.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/InRange.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+            <state relative-caret-position="297">
+              <caret line="31" column="82" lean-forward="true" selection-start-line="31" selection-start-column="82" selection-end-line="31" selection-end-column="82" />
               <folding>
-                <element signature="e#0#45#0" expanded="true" />
+                <element signature="e#0#297#0" expanded="true" />
+                <element signature="e#299#344#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -380,6 +381,7 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/SAMconversions.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/Extensionfunctionsoncollections.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/Comparison.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/InRange.kt" />
       </list>
     </option>
   </component>
@@ -468,7 +470,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestComparison">
+  <component name="RunManager" selected="JUnit.TestInRange">
     <configuration name="TestComparison" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="koans_main" />
@@ -489,13 +491,13 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TestDataClasses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestExtensionFunctions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="koans_main" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestDataClasses" />
+      <option name="MAIN_CLASS_NAME" value="TestExtensionFunctions" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -509,13 +511,13 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="TestExtensionFunctions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestInRange" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="koans_main" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestExtensionFunctions" />
+      <option name="MAIN_CLASS_NAME" value="TestInRange" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -650,19 +652,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TestDataClasses" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestNullableTypes" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestExtensionFunctions" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestObjectExpressions" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestComparison" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestNullableTypes" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestExtensionFunctions" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestObjectExpressions" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestComparison" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestInRange" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestComparison" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestObjectExpressions" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestExtensionFunctions" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestNullableTypes" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestDataClasses" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestInRange" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestComparison" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestObjectExpressions" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestExtensionFunctions" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestNullableTypes" />
       </list>
     </recent_temporary>
   </component>
@@ -679,7 +681,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508122257656</updated>
-      <workItem from="1508122260656" duration="8068000" />
+      <workItem from="1508122260656" duration="8752000" />
     </task>
     <servers />
   </component>
@@ -696,11 +698,11 @@
     <history-entry file="TestDataClasses - 2017.10.16 at 14h 22m 10s.xml">
       <configuration name="TestDataClasses" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestDefaultAndNamedParams - 2017.10.16 at 10h 23m 32s.xml">
-      <configuration name="TestDefaultAndNamedParams" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestExtensionFunctions - 2017.10.16 at 14h 25m 18s.xml">
       <configuration name="TestExtensionFunctions" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestInRange - 2017.10.17 at 09h 58m 01s.xml">
+      <configuration name="TestInRange" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestLambdas - 2017.10.16 at 14h 19m 19s.xml">
       <configuration name="TestLambdas" configurationId="JUnit" />
@@ -716,18 +718,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8068000" />
+    <option name="totallyTimeSpent" value="8752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.4914712" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.48933902" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.50852877" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.510661" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.4914712" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.48933902" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -911,6 +913,17 @@
           <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/InRange.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="31" column="82" lean-forward="true" selection-start-line="31" selection-start-column="82" selection-end-line="31" selection-end-column="82" />
+          <folding>
+            <element signature="e#0#297#0" expanded="true" />
+            <element signature="e#299#344#0" expanded="true" />
           </folding>
         </state>
       </provider>
