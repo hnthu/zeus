@@ -1,3 +1,5 @@
+package Introduction;
+
 /*Input Format
 
 There is no input for this challenge.
