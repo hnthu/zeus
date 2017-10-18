@@ -1,7 +1,5 @@
 package Introduction;
 
-import sun.util.locale.BaseLocale;
-
 import java.text.NumberFormat;
 import java.util.Locale;
 import java.util.Scanner;
