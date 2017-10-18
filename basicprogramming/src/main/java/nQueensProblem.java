@@ -14,9 +14,12 @@ public class nQueensProblem {
         Scanner s = new Scanner(System.in);
         int N = s.nextInt();
         int[][] board = new int[N][N];
-        nQueens(board, N);
-        display(board);
-
+        if (nQueens(board, N)) {
+            System.out.println("YES");
+            display(board);
+        }
+        else
+            System.out.println("NO");
     }
 
     private static void display(int[][] board) {
@@ -31,9 +34,9 @@ public class nQueensProblem {
     private static boolean nQueens(int[][] board, int n) {
         if(n==0)
             return true;
-        for(int i=0; i<n; i++) {
-            for(int j=0; j<n; j++) {
-                if(isAttack(i,j,board,n)) {
+        for(int i=0; i<board.length; i++) {
+            for(int j=0; j<board.length; j++) {
+                if(isAttack(i,j,board)) {
                     continue;
                 }
                 board[i][j] = 1;
@@ -46,7 +49,7 @@ public class nQueensProblem {
         return false;
     }
 
-    private static boolean isAttack(int i, int j, int[][] board, int n) {
+    private static boolean isAttack(int i, int j, int[][] board) {
         for (int k = 0; k < board.length; k++) {
             if(board[i][k]==1 || board[k][j]==1)
                 return true;
