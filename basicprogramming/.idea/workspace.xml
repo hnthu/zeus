@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b292310-4e84-4423-8802-56b66c303004" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../koans/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../soap2/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../soap2/src/main/java/hello/QuoteConfiguration.java" afterPath="$PROJECT_DIR$/../soap2/src/main/java/hello/QuoteConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java/out/production/classes/Strings/JavaAnagrams.class" afterPath="$PROJECT_DIR$/../Java/out/production/classes/Strings/JavaAnagrams.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../koans/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../koans/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
