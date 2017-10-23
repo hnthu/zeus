@@ -25,6 +25,4 @@ class TestComparison {
             return this.dayOfMonth-b.dayOfMonth
         }
     }
-
-    fun compare(date1: MyDate, date2: MyDate) = date1 < date2
 }
