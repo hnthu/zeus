@@ -1,6 +1,8 @@
 package Strings;
 
 import java.util.Scanner;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /*Sample Input
 
@@ -24,9 +26,16 @@ public class TagContentExtractor {
         int testCases = Integer.parseInt(in.nextLine());
         while(testCases>0){
             String line = in.nextLine();
-
             //Write your code here
-
+            Pattern p = Pattern.compile("<([^>/]+)>([^<\1]+)<\\/\\1>");
+            Matcher m = p.matcher(line);
+            boolean none = true;
+            while(m.find()) {
+                System.out.println(m.group(2));
+                none = false;
+            }
+            if (none)
+                System.out.println("None");
             testCases--;
         }
     }
