@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b76accd3-5d76-43aa-bd7f-7b6a313c6b28" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Java/src/main/java/Strings/TagContentExtractor.java" afterPath="$PROJECT_DIR$/../Java/src/main/java/Strings/TagContentExtractor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../basicprogramming/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../basicprogramming/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../soap2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../soap2/.idea/workspace.xml" />
     </list>
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
