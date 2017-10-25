@@ -11,4 +11,4 @@ class TestStart {
         Assert.assertEquals("OK", start())
     }
 }
-fun start(): String = "OK"
+fun start() = "OK"
