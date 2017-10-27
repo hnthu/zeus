@@ -48,34 +48,41 @@ public class JavaPriorityQueue {
         }
     }
 
-    private static class Priorities {
+    static class Priorities {
+        public List < Student > getStudents(List < String > events) {
+            PriorityQueue < Student > student_queue = new PriorityQueue(Comparator.comparing(Student::getPri).reversed().thenComparing(Student::getName).thenComparing(Student::getId));
+            List < Student > students = new ArrayList < Student > ();
+            for (String e: events) {
+                Scanner in =new Scanner(e);
+                String event = in.next();
+                if (event.equals("ENTER")) {
+                    String name = in.next();
+                    float cgpa = in.nextFloat();
+                    int token = in.nextInt();
 
-        public List<Student> getStudents(List<String> events) {
-            int count = 0;
-            PriorityQueue<Student> li = new PriorityQueue<Student>((o1, o2) -> {
-                if (o1.getPri() != o2.getPri())
-                    return o2.getPri() - o1.getPri() > 0 ? 1 : -1;
-                if (o1.getName().compareToIgnoreCase(o2.getName()) != 0)
-                    return o1.getName().compareToIgnoreCase(o2.getName());
-                return o1.getId() - o2.getId();
-            });
-            for(String e: events) {
-                String[] eventArr= e.split(" ");
-                switch (eventArr[0]) {
-                    case "ENTER":
-                        li.offer(new Student(eventArr[1], Double.valueOf(eventArr[2]),Integer.valueOf(eventArr[3])));
-                        break;
-                    case "SERVED":
-                        li.remove();
-                        break;
+                    Student student = new Student(name, cgpa, token);
+                    student_queue.add(student);
+                } else if (event.equals("SERVED")) {
+                    Student first = student_queue.poll();
+                } in .close();
+            }
+            Student first = student_queue.poll();
+            if (first == null) {
+                return students;
+            } else {
+                while (first != null) {
+
+                    students.add(first);
+                    first = student_queue.poll();
+
                 }
+                return students;
             }
 
-            return new ArrayList(li);
         }
     }
 
-    private static class Student {
+     static class Student {
         String name;
         int id;
         double pri;
